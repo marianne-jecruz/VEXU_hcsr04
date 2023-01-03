@@ -1,52 +1,0 @@
-Dependencies for Project 'Lab3_4', Target 'Lab 3_4': (DO NOT MODIFY !)
-CompilerVersion: 6180000::V6.18::ARMCLANG
-F (.\README.md)(0x63333A59)()
-F (..\Lab03.md)(0x63333A58)()
-F (..\BLYNK.md)(0x63333A58)()
-F (.\Lab3_4.c)(0x63B48558)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./-I"C:/Users/Marianne Cruz/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123"-D__UVISION_VERSION="537" -DTM4C123GH6PM-o ./objects/lab3_4.o -MD)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x625317A6)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x625317A8)
-I (C:\Keil_v5\ARM\ARMCLANG\include\math.h)(0x625317A6)
-I (inc\tm4c123gh6pm.h)(0x63333A59)
-I (inc\PLL.h)(0x63333A59)
-I (inc\CortexM.h)(0x63333A59)
-I (inc\UART.h)(0x63333A59)
-I (hcsr04.h)(0x63B4852F)
-I (inc\Timer1A.h)(0x63333A59)
-I (inc\TExaS.h)(0x63333A59)
-F (.\hcsr04.c)(0x63B4853F)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./-I"C:/Users/Marianne Cruz/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123"-D__UVISION_VERSION="537" -DTM4C123GH6PM-o ./objects/hcsr04.o -MD)
-I (hcsr04.h)(0x63B4852F)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x625317A8)
-I (inc\Timer1A.h)(0x63333A59)
-I (inc\tm4c123gh6pm.h)(0x63333A59)
-F (.\hcsr04.h)(0x63B4852F)()
-F (.\inc\startup.s)(0x63333A59)(--target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -masm=auto -c-gdwarf-4 -Wa,armasm,--pd,"__MICROLIB SETA 1"-I"C:/Users/Marianne Cruz/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123"-Wa,armasm,--pd,"__UVISION_VERSION SETA 537" -Wa,armasm,--pd,"TM4C123GH6PM SETA 1"-o ./objects/startup.o)
-F (.\inc\PLL.c)(0x63333A59)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./-I"C:/Users/Marianne Cruz/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123"-D__UVISION_VERSION="537" -DTM4C123GH6PM-o ./objects/pll.o -MD)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x625317A8)
-I (inc\..\inc\PLL.h)(0x63333A59)
-I (inc\..\inc\tm4c123gh6pm.h)(0x63333A59)
-F (.\inc\Unified_Port_Init.c)(0x63333A59)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./-I"C:/Users/Marianne Cruz/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123"-D__UVISION_VERSION="537" -DTM4C123GH6PM-o ./objects/unified_port_init.o -MD)
-I (inc\tm4c123gh6pm.h)(0x63333A59)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x625317A8)
-I (inc\Unified_Port_Init.h)(0x63333A59)
-F (.\inc\Timer0A.c)(0x63333A59)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./-I"C:/Users/Marianne Cruz/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123"-D__UVISION_VERSION="537" -DTM4C123GH6PM-o ./objects/timer0a.o -MD)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x625317A8)
-I (inc\..\inc\tm4c123gh6pm.h)(0x63333A59)
-I (inc\..\inc\CortexM.h)(0x63333A59)
-F (.\inc\Timer0A.h)(0x63333A59)()
-F (.\inc\Timer2A.c)(0x63333A59)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./-I"C:/Users/Marianne Cruz/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123"-D__UVISION_VERSION="537" -DTM4C123GH6PM-o ./objects/timer2a.o -MD)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x625317A8)
-I (inc\..\inc\tm4c123gh6pm.h)(0x63333A59)
-F (.\inc\Timer5A.c)(0x63333A59)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./-I"C:/Users/Marianne Cruz/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123"-D__UVISION_VERSION="537" -DTM4C123GH6PM-o ./objects/timer5a.o -MD)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x625317A8)
-I (inc\..\inc\tm4c123gh6pm.h)(0x63333A59)
-F (.\inc\Timer5A.h)(0x63333A59)()
-F (.\inc\Timer1A.c)(0x63333A59)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./-I"C:/Users/Marianne Cruz/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123"-D__UVISION_VERSION="537" -DTM4C123GH6PM-o ./objects/timer1a.o -MD)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x625317A8)
-I (inc\..\inc\tm4c123gh6pm.h)(0x63333A59)
-F (.\inc\Timer1A.h)(0x63333A59)()
-F (.\inc\UART.c)(0x63333A59)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./-I"C:/Users/Marianne Cruz/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123"-D__UVISION_VERSION="537" -DTM4C123GH6PM-o ./objects/uart.o -MD)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x625317A8)
-I (inc\tm4c123gh6pm.h)(0x63333A59)
-I (inc\UART.h)(0x63333A59)
-F (.\inc\UART.h)(0x63333A59)()
